@@ -3,6 +3,8 @@
 ## Overview
 The main idea of our rover code is that the curses and pololu_drv8835_rpi libraries are used in conjunction to take keyboard input and translate that into motor movement.
 
+RaspController app was used to send commands to the raspberry pi over WiFi.
+
 ## Structure
 ### Functions
 #### forwards(spd)
