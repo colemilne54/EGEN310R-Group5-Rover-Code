@@ -22,3 +22,6 @@ Sets both motors' speed to 0 (stopping them)
 
 #### sleepOne()
 Pauses code execution for 1 second
+
+### Main Loop
+Curses is used to wait for keyboard input and run corresponding functions (see above) for rover control
