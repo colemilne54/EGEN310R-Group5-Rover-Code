@@ -24,6 +24,10 @@ def stop():
  
 def sleepOne():
 	time.sleep(1)
+	
+def sleepHalf():
+	time.sleep(0.5)
+
 
 
 try:
@@ -41,11 +45,11 @@ try:
 			sleepOne()
 			stop()
 		elif char == ord('a'):
-			left(100)
+			left(200)
 			sleepOne()
 			stop()			
 		elif char == ord('d'):
-			right(100)
+			right(200)
 			sleepOne()
 			stop()
 		elif char == ord('i'):
@@ -55,6 +59,14 @@ try:
 		elif char == ord('k'):
 			backwards(300)
 			sleepOne()
+			stop()
+		elif char == ord('j'):
+			left(200)
+			sleepHalf()
+			stop()
+		elif char == ord('l'):
+			right(200)
+			sleepHalf()
 			stop()
  
  
