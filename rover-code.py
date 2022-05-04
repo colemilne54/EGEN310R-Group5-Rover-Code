@@ -24,11 +24,9 @@ def stop():
  
 def sleepOne():
 	time.sleep(1)
-	
+
 def sleepHalf():
 	time.sleep(0.5)
-
-
 
 try:
 	while True:
